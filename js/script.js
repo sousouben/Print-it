@@ -26,6 +26,18 @@ const dotsContainer = slider.querySelector(".dots");
 const bannerImg = slider.querySelector(".banner-img");
 const tagLine = slider.querySelector("p");
 
+/*test Ajout des Event Listeners sur les flèches 
+
+arrow_left.addEventListener('click', function() {
+	console.log('Flèche gauche cliquée')
+});
+
+arrow_right.addEventListener('click', function() {
+	console.log('Flèche droite cliquée')
+});
+
+*/
+
 // Création des éléments DOM pour les points
 const dots = slides.map((_, index) => {
   const dot = document.createElement("div");
